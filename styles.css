@@ -3,18 +3,29 @@
     padding: 0px;
 }
 .container{
-    background-color: black;
+    background-color: rgb(36, 34, 34);
     padding: 20px;
     color: white;
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
-
-
+    justify-content: space-between;
 }
+
+.logo{
+    margin-left: 20px; /*added to move the logo a bit from left to right*/
+}
+
 .logo-image{
     width: 150px;
+}
+
+/*display flex id added to the class menus */
+.menus{
+    display: flex;
+}
+
+li{
+    padding: 10px
 }
 
